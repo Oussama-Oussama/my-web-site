@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Stick+No+Bills:wght@300&display=swap');
+
+.navigation {
+    width: 100%;
+    height: 80px;
+    background-color:white;
+}
+
+*    {
+    margin: 0;
+    font-family: 'Stick No Bills', sans-serif;
+}
+#nav-logo {
+    width: auto;
+    height: 70px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.no {
+    height: 80px;
+    display: inline;
+    width: 20px;
+    font-size: 1.2em;
+    color: black;
+    margin:0 20px ;
+}
+.ana {
+    height: 80px;
+    display: inline-block;
+    list-style: none;
+    margin-left: calc(100% - 700px);
+    position: relative;
+    bottom: 22.25px;
+}
+#parent {
+    height: 100vh;
+    background-image: url(../res/banner.jpg);
+    background-size: cover;
+    background-repeat: no repeat;
+    background-position: center;
+}
+
+.link {
+    text-decoration: none;
+}
